@@ -1,0 +1,28 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "因后台接口不支持跨域，做的简单代理",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhusike/proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "CORS"
+  ],
+  "author": "sike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhusike/proxy/issues"
+  },
+  "homepage": "https://github.com/zhusike/proxy#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
